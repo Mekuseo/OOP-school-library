@@ -20,11 +20,18 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Enumerable <a name="about-project"></a>
+# 📖 The OOP University Library app <a name="about-project"></a>
 
-**Enumerable** is a Ruby project that includes a module, "MyEnumerable", and a class, "MyList". It provides a subset of the functionality of Ruby's built-in Enumerable module and enables developers to create their own custom lists and iterate over them.
+**The OOP University Library app** is a tool designed to assist the librarian in managing the library's collection of books and keeping track of borrowing activities. This app enables the librarian to perform the following tasks:
+
+Add new students or teachers: The app provides functionality to add new members to the library system, including students and teachers. This allows for easy management of user records and identification when borrowing books.
+
+Add new books: The librarian can add new books to the library's collection using the app. Each book can have attributes such as title, author, genre, and publication information. This ensures an organized inventory of available books.
+
+Record borrowing activities: The app facilitates the recording of borrowing activities by keeping track of who borrows a particular book and when it is borrowed. This information is essential for maintaining a lending history and ensuring accountability.
 
 ## 🛠 Built With <a name="built-with"></a>
+- Ruby
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -34,14 +41,13 @@
   </ul>
 
 ## 🚀 Project Demo <a name="project-demo"><a>
-`Project demo will update soon!`
+`Project demo will be updated soon!`
 
 ### Key Features <a name="key-features"></a>
 
-- Implements a subset of the functionality of Enumerable.
-- Includes methods for checking if all or any elements satisfy a given condition.
-- Provides a method for filtering elements based on a given condition.
-- Easily extensible with additional methods as needed.
+- Add new students or teacher
+- Add new books
+- Record borrowing activities
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,7 +59,7 @@ This repository includes ruby code that can be use to decode the morse code.
 
 ```sh
   cd my-folder
-  git clone https://github.com/raihan2bd/enumerable.git
+  git clone https://github.com/mekuseo/OOP-school-library.git
 ```
 
 - To use this repo to your local computer make sure you have installed [Ruby](https://www.ruby-lang.org/)
@@ -63,18 +69,12 @@ gem install
 ```
 - To run this project on your local machine `Enter` the below command
 ```
-ruby my_list.rb
+ruby database.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Abu Raihan**
-
-- GitHub: [@raihan2bd](https://github.com/raihan2bd)
-- Twitter: [@raihan2bd](https://twitter.com/raihan2bd)
-- LinkedIn: [raihan2bd](https://linkedin.com/in/raihan2bd)
 
 👤 **Kanu Chukwuemeka**
 
@@ -86,8 +86,9 @@ ruby my_list.rb
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **We will create custom `find?` enumerable**
-- [ ] **We will create custom `sort`, `map`, `min`, `max` and many more enumerable**
+- [ ] **Building interface and creating nameable class**
+- [ ] **preparing a base decorator**
+- [ ] **Prepare CapitalizeDecorator and TrimmerDecorator**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
